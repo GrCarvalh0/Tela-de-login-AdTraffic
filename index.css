@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    height: 100%;
+    height: auto;
+    max-height: max-content;
+    background-color: rgba(252,0,162,1);
+    background-image: linear-gradient(to bottom right, rgba(28,10,86,1) 12%, rgba(252,0,162,1) 100%);
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header img{
+    size: auto;
+    background-repeat: no-repeat;
+    height: 7rem;
+}
+
+#container article {
+    font-size: 18pt;
+    text-align: left;
+    padding-left: 0rem;
+    color: aliceblue;
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 131px);
+    flex-wrap: wrap;
+}
+
+#linha-vertical{
+    height: 100px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.position{
+    transform: translate(6rem, -5rem);
+    margin-top: 0px;
+    text-align: center;
+}
+
+#hi{
+    font-size: 30pt;
+}
+
+hr{
+    width: 300px;
+    color: white;
+}
+
+#parteum{
+    margin-right: 15rem;
+    margin-left: 10rem;
+    margin-top: 100px;
+    display: inline-block;
+    
+}
+
+#partedois{
+    margin-left: 180px;
+    display: inline-block;
+}
+.doish4{
+    padding-left: 20px;
+}
+.doish5{
+    padding-left: 20px;
+}
+
+table{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+hr{
+    width: 200px;
+    color: white;
+    
+}
+
+p{
+    font-size: 13pt;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+
+#email{
+    box-sizing: content-box;
+    width: 100%;
+    position: relative;
+    width: 47.5vh;
+    height: 5.5vh;
+    margin-left: 35px;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    background: url(imagens/perfil-de-usuario.png);
+    background-size: 32px;
+    background-position-x: 8px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    outline:none;
+}
+
+#email::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
+#email:hover{
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+#btn-login{
+    position: relative;
+    width: 55vh;
+    height: 5vh;
+    max-height: 5vh;
+    margin-top: 5vh;
+    margin-left: 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(234, 0, 255) ;
+    font-size: 13pt;
+}
+
+#btn-login:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(28,10,86,1);
+}
+
+.vrs{
+    font-size: 12pt;
+    margin-top: 13.5vh;
+    width: 100%;
+}
